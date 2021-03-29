@@ -1,0 +1,66 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+body {
+    background-color: #2D3E50;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+}
+
+button:active {
+    border: none;
+    outline: none;
+}
+
+button:focus {outline:0;}
+
+.container {
+    margin: 15rem auto;
+    max-width: 1000px;
+    width: 60%;
+}
+
+.tabs {
+    background-color: #1BBC9B;
+    display: flex;
+}
+
+.tab {
+    background-color: #1BBC9B;
+    border: 0;
+    border-radius: 0px;
+    color: #FFF;
+    margin: 0;
+    padding: 1.5rem 4rem;
+    transition: font-size 0.3s ease;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #FFF;
+    color: #000;
+}
+
+.content {
+    background-color: #FFF;
+    padding: 3rem 4rem;
+}
+
+.section {
+    display: none;
+}
+
+.section-text {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.show {
+    display: block !important;
+}
