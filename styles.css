@@ -8,7 +8,7 @@ html {
 } 
 
 body {
-    background-color: #2D3E50;
+    background-color: #424642;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.8rem;
 }
@@ -22,23 +22,22 @@ button:focus {outline:0;}
 
 .container {
     margin: 15rem auto;
+    min-width: 400px;
     max-width: 1000px;
     width: 60%;
 }
 
 .tabs {
-    background-color: #1BBC9B;
     display: flex;
 }
 
 .tab {
-    background-color: #1BBC9B;
+    background-color: transparent;
     border: 0;
-    border-radius: 0px;
     color: #FFF;
     margin: 0;
     padding: 1.5rem 4rem;
-    transition: font-size 0.3s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
@@ -54,6 +53,7 @@ button:focus {outline:0;}
 
 .section {
     display: none;
+    transition: all 1s ease;
 }
 
 .section-text {
